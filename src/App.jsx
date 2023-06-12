@@ -1,5 +1,14 @@
+import Container from './components/Container/Container';
+import { GlobalStyles } from './stles/globalStyles';
+
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<GlobalStyles />
+			<Container />
+		</>
+	);
 };
 
 export default App;
