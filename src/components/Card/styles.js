@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledForm  = styled.section`
+const StyledForm  = styled.div`
 
     width: 500px;
     height: 100vh;
