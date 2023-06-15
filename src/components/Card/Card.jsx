@@ -1,6 +1,6 @@
 import { StyledForm, StyledInput, StyledLabel , StyledBtn, StyledConInp, StyledInputM } from './styles';
 
-const Text = ({ setName, setCardNumber, setMonth, setYear, setCvc }) => {
+const Card = ({ setName, setCardNumber, setMonth, setYear, setCvc }) => {
 	return (
 		<>
 			<StyledForm >
@@ -60,4 +60,4 @@ const Text = ({ setName, setCardNumber, setMonth, setYear, setCvc }) => {
 	);
 };
 
-export default Text;
+export default Card;
